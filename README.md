@@ -26,7 +26,7 @@ class BERTMLM(keras.Model):
 ```
 模型summary结果
 
-![tf2-keras-bert](./img/tf2-bert.jpeg)
+![tf2-keras-bert](./img/tf2-bert.png)
 
 
 ### pytorch实现
@@ -56,4 +56,4 @@ class BERTLM(nn.Module):
 
 需要安装: pip install torchinfo
 
-![pytorch-bert](./img/pytorch-bert.jpeg)
+![pytorch-bert](./img/pytorch-bert.png)
