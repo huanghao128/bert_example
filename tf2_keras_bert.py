@@ -326,7 +326,6 @@ def main(env="train"):
     data_features, data_labels = load_dataset("data/sample_data.txt", tokenizer)
     print("train sample count: ", len(data_features[0]))
 
-    """
     if env == "train":
         print("start training...")
         model.fit(x=data_features, y=data_labels, validation_split=0.1, 
@@ -343,7 +342,6 @@ def main(env="train"):
         print("bert predict result:")
         print(np.shape(outputs[0]))
         print(outputs[0])
-    """
 
 if __name__ == '__main__':
     main(env="train")
